@@ -39,8 +39,6 @@ Ce guide décrit comment déployer et automatiser le montage d’un remote Rclon
 3. Lancer :
 .\deploy-rclone-final.ps1
 
-text
-
 ### Paramètres demandés
 
 - **Nom du remote** (ex: monserveur)
@@ -61,8 +59,6 @@ text
 - Paramètres utilisés :
 --no-console --vfs-cache-mode full --network-mode --dir-cache-time 10s
 
-text
-
 ---
 
 ## 5. Gestion du service
@@ -70,19 +66,15 @@ text
 - **Démarrer** :
 Start-Service rclone_<nomdu-remote>
 
-text
 - **Arrêter** :
 Stop-Service rclone_<nomdu-remote>
 
-text
 - **Status** :
 Get-Service rclone_<nomdu-remote>
 
-text
 - **Supprimer** :
 C:\nssm\nssm.exe remove rclone_<nomdu-remote>
 
-text
 
 ---
 
