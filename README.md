@@ -105,4 +105,4 @@ C:\nssm\nssm.exe remove rclone_<nomdu-remote>
 
 > **Astuce** : Vous pouvez organiser chaque section comme page ou sous-page dans un wiki ou outil Markdown structuré (Obsidian, Notion, GitHub Wiki, etc).
 
-Ce script a été créé à l'aide de l'outil [Perplexity](https://perplexity.ai).
+Ce script a été créé à l'aide de l'outil [Perplexity](https://perplexity.ai) et [Claude](https://claude.ai).
